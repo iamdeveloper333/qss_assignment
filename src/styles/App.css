@@ -1,0 +1,259 @@
+p{
+    margin: 0px !important;
+}
+.no_location_header{
+    height: 10vh;
+    background: ghostwhite;
+}
+
+.no_location_header span{
+    margin: 0px 15px;
+    padding-top: 20px !important;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.no_location_body{
+    height: 90vh;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.add_location{
+    float: right;
+    margin: 15px !important;
+    border-radius: 25px !important;
+    background: #4c7098 !important;
+    color: white !important;
+    font-size: 13px !important;
+}
+
+.plus{ 
+    font-size: 10px !important;
+}
+.marker{
+    font-size: 75px !important;
+    padding: 50px 33px !important;
+}
+
+.location_icon_wrapper{
+    background: #e4e4e4;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    margin-bottom: 15px;
+}
+
+.ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url]{
+    border: 0px !important;
+    border-bottom: 2px solid #efefef !important;
+    border-radius: 0px !important;
+    padding: 5px !important;
+}
+.ui.grid>.row{
+    padding: 10px !important;
+}
+.ui.grid>.row>.column{
+    padding: 0px 8px !important;
+}
+
+.ui.selection.dropdown{
+    border-radius: 0px !important;
+    min-width: 8em !important;
+    min-height: 5px !important; 
+    font-size: 12px !important;
+    padding: 5px 12px 10px 10px !important;
+    border: 0px !important;
+    border-bottom: 2px solid #efefef !important;
+}
+
+.error-label{
+    color: red; 
+    margin-top:5px;
+    font-size: 11px ; 
+}
+
+ 
+
+.input-tag {
+    background: white;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px 0;
+  }
+  
+  .input-tag input {
+    border: none;
+    width: 100%;
+  }
+  
+  .input-tag__tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .input-tag__tags li {
+    align-items: center;
+    background: #85A3BF;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    font-weight: 300;
+    list-style: none;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px 10px;
+  }
+  
+  .input-tag__tags li button {
+    align-items: center;
+    appearance: none;
+    background: #333333;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    height: 15px;
+    justify-content: center;
+    line-height: 0;
+    margin-left: 8px;
+    padding: 0;
+    transform: rotate(45deg);
+    width: 15px;
+  }
+  
+  .input-tag__tags li.input-tag__tags__input {
+    background: none;
+    flex-grow: 1;
+    padding: 0;
+  }
+ 
+
+  .ReactTable .rt-thead .rt-tr {
+    border-radius: 25px !important;
+    font-size: 13px !important;
+    padding: 8px !important;
+    font-weight: 600 !important;
+    /* margin: 12px 0px !important; */
+    background-color: white;
+    text-align: left !important;
+  }
+
+  .pagination-bottom{
+      display: none;
+  }
+  .ReactTable{
+    border: 0px solid rgba(0,0,0,0.1) !important;
+    width: 100% !important;
+  }
+  .ReactTable .rt-thead.-header {
+    box-shadow: 0px 0px 0px 0 rgba(0,0,0,0.15);
+}
+
+.ReactTable .rt-tbody .rt-tr-group{
+    background: white;
+    border-radius: 20px;
+    margin-top: 8px;
+    padding: 0px 8px;
+}
+
+.ReactTable .rt-tbody .rt-td,.ReactTable .rt-thead .rt-th, .ReactTable .rt-thead .rt-td {
+    border-right: 0px solid rgba(0,0,0,0.02) !important;
+}
+
+.pencil{
+    color: #f7bd18;
+    font-size: 12px;
+    margin: 0px 20px !important;
+    cursor: pointer;
+}
+.trash{
+    color: #f16f32;
+    font-size: 12px;
+    cursor: pointer;
+}
+.paginationDiv{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    margin: 10px 0px;
+    border-radius: 25px;
+    padding: 2px;
+    justify-content: center;
+}
+.paginationDiv > .left{
+    padding: 5px 0px !important;
+}
+
+.paginationDiv .center{
+    font-size: 11px;
+    padding: 5px;
+    margin: 0px 12px;
+}
+
+.paginationDiv .right .ui.pagination.menu{
+    font-size: 11px;
+    margin: 2px 10px;
+    /* border: 0px !important; */
+    box-shadow: 0px 0px 0px black !important;
+
+}
+
+.paginationDiv .left .pagination-page{
+    margin: 5px !important;
+    font-size: 11px !important;
+}
+
+.rt-td:first-child div{
+    width: 22px;
+    padding: 1px 7px;
+    border-radius: 50%;
+    background: blue;
+    color: white;
+  }
+
+ .inputLabel {
+    color:#767676a6 !important;
+    font-size: 11px !important;
+    padding: 12px 0px 0px !important;
+    margin-bottom:0px !important;
+  }
+
+  .am_button{
+    padding: 7px !important;
+    font-size: 11px !important;
+    height: 24px !important;
+    margin-left:10px !important;
+  }
+
+  .pm_button{
+    padding: 7px !important;
+    font-size: 11px !important;
+    height: 24px !important;
+  }
+  .form_data{
+    background: white;
+    width: 44vw;
+    margin-left: 28vw;
+    padding:15px;
+    top:30px;
+    box-shadow: 5px 5px 10px #d4d4d4;
+  }
+  .form_data_heading{
+    font-size: 13px;
+    font-weight: 600;
+    color: #02729e;
+    padding-bottom: 8px;
+    
+  }
